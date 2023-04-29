@@ -6,7 +6,67 @@
 body {
     width: 375px;
     font-family:'Epilogue';
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 98%);
+}
+.header {
+    display: flex;
+    padding: 1.5rem 0.6rem 1.5rem 1.5rem;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100vw;
+}
+/* .menu-main {
+    display: flex;
+    justify-self: end;
+} */
+.close-menu {
+    display: none;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+
+}
+.hero {
+    display: flex;
+    width: 100vw;
+}
+#image {
+  width: 100vw;
+}
+.words {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem 1rem;
+    width: 100vw;
+    justify-content: center;
+}
+h1 {
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+p {
+    display: flex;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 41%);
+    text-align: center;
+    line-height: 1.5rem;
+
+} 
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 2.5rem;
+}
+#learn-more{
+padding: 0.7rem 1.4rem;
+color: hsl(0, 0%, 98%);
+background-color: hsl(0, 0%, 8%);
+border-radius: 0.75rem;
 }
 .attribution { 
     font-size: 11px; 
