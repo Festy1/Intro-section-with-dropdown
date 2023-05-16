@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    
+
 </head>
 
 <body>
@@ -22,6 +22,7 @@
             <div id="menu">
                 <img src="./images/icon-menu.svg" alt="menu" id="hamburger">
             </div>
+            <!-- ////////  mobile menu  /////////// -->
             <div class="menu-main">
                 <div class="close-menu">
                     <img src="./images/icon-close-menu.svg" alt="close menu" id="close">
@@ -30,14 +31,17 @@
                                     id="arrow-down1"><img src="./images/icon-arrow-up.svg" alt="close"
                                     id="arrow-up1"></a>
                             <ul class="feature-li">
-                                <li><a href="#"><img src="./images/icon-todo.svg" alt="Todo list icon" id="icon"></a>Todo List
+                                <li><a href="#"><img src="./images/icon-todo.svg" alt="Todo list icon"
+                                            id="icon"></a>Todo List
                                 </li>
-                                <li><a href="#"><img src="./images/icon-calendar.svg" alt="Calender icon" id="icon"></a>Calender
+                                <li><a href="#"><img src="./images/icon-calendar.svg" alt="Calender icon"
+                                            id="icon"></a>Calender
                                 </li>
-                                <li><a href="#"><img src="./images/icon-reminders.svg"
-                                            alt="Reminders icon" id="icon"></a>Reminders
+                                <li><a href="#"><img src="./images/icon-reminders.svg" alt="Reminders icon"
+                                            id="icon"></a>Reminders
                                 </li>
-                                <li><a href="#"><img src="./images/icon-planning.svg" alt="Planning icon" id="icon"></a>Planning
+                                <li><a href="#"><img src="./images/icon-planning.svg" alt="Planning icon"
+                                            id="icon"></a>Planning
                                 </li>
                             </ul>
                         </li>
@@ -59,24 +63,70 @@
                     </div>
                 </div>
             </div>
+            <!-- //////// Desktop menu ////////// -->
+            <div class="desktop">
+                <div class="desktop-nav">
+                    <img src="./images/logo.svg" alt="logo" id="desktop-logo">
+                    <ul class="desktop-big-ul">
+                        <li><a id="desktop-features" href="#">Features <img src="./images/icon-arrow-down.svg"
+                                    alt="dropdown" id="desktop-arrow-down1"><img src="./images/icon-arrow-up.svg"
+                                    alt="close" id="desktop-arrow-up1"></a>
+                            <ul class="desktop-feature-li">
+                                <li><a href="#"><img src="./images/icon-todo.svg" alt="Todo list icon"
+                                            id="desktop-icon"></a>Todo
+                                    List
+                                </li>
+                                <li><a href="#"><img src="./images/icon-calendar.svg" alt="Calender icon"
+                                            id="desktop-icon"></a>Calender
+                                </li>
+                                <li><a href="#"><img src="./images/icon-reminders.svg" alt="Reminders icon"
+                                            id="desktop-icon"></a>Reminders
+                                </li>
+                                <li><a href="#"><img src="./images/icon-planning.svg" alt="Planning icon"
+                                            id="desktop-icon"></a>Planning
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Company <img src="./images/icon-arrow-down.svg" alt="dropdown"
+                                    id="desktop-arrow-down2"><img src="./images/icon-arrow-up.svg" alt="close"
+                                    id="desktop-arrow-up2"></a>
+                            <ul class="desktop-company-li">
+                                <li><a href="#"></a>History</li>
+                                <li><a href="#"></a>Our Team</li>
+                                <li><a href="#"></a>Blog</li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="desktop-btn1">
+                    <button id="desktop-login">Login</button>
+                    <button id="desktop-register">Register</button>
+                </div>
+            </div>
         </nav>
     </header>
     <section class="section">
-         <div id="hero">
-            <img src="./images/image-hero-mobile.png" alt="main-picture" id="image">
+        <div id="hero">
+            <img src="./images/image-hero-mobile.png" alt="main-picture" id="mobile-image">
+            <img src="./images/image-hero-desktop.png" alt="main-picture" id="desktop-image">
         </div>
-        <div class="words">
-            <h1>Make remote work</h1>
-            <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-        </div>
-        <div class="btn">
-            <button id="learn-more">Learn more</button>
-        </div>
-        <div class="contact">
-            <img src="./images/client-databiz.svg" alt="databiz-link" id="img-contact">
-            <img src="./images/client-audiophile.svg" alt="audiophile-link" id="img-contact">
-            <img src="./images/client-meet.svg" alt="client-meet-link" id="img-contact">
-            <img src="./images/client-maker.svg" alt="client-maker-link" id="img-contact">
+        <div class="sub-section">
+            <div class="words">
+                <h1>Make remote work</h1>
+                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+                    productivity soar.</p>
+            </div>
+            <div class="desktop-btn">
+                <button id="learn-more">Learn more</button>
+            </div>
+            <div class="contact">
+                <img src="./images/client-databiz.svg" alt="databiz-link" id="img-contact">
+                <img src="./images/client-audiophile.svg" alt="audiophile-link" id="img-contact">
+                <img src="./images/client-meet.svg" alt="client-meet-link" id="img-contact">
+                <img src="./images/client-maker.svg" alt="client-maker-link" id="img-contact">
+            </div>
         </div>
     </section>
 
