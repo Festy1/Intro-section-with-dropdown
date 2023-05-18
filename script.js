@@ -57,3 +57,7 @@ const hideArrow2 = () => {
 };
 arrowUp2.addEventListener('click', hideArrow2);
 
+
+
+//// For Desktop ////////
+

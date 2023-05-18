@@ -27,24 +27,23 @@ body {
     top: 0;
     right: 0;
     display: none;
-
+    width: 100vw;
 }
 
 #menu {
     cursor: pointer;
-    
+
 }
 
 .close-menu {
     background-color: hsl(0, 0%, 98%);
-    border: 1px solid red;
     height: 100vh;
     padding-left: 2rem;
-    width: 260px;
+    width: 68%;
     top: 0;
     display: flex;
     flex-direction: column;
-   
+
 }
 
 #close {
@@ -53,6 +52,7 @@ body {
     height: 25px;
     margin-left: auto;
     margin-right: 1.5rem;
+    cursor: pointer;
 }
 
 .big-ul {
@@ -196,7 +196,7 @@ p {
     display: flex;
     justify-content: center;
     width: 100vw;
-    
+
 }
 
 #learn-more {
@@ -221,7 +221,7 @@ p {
     width: 50px;
     height: 100%;
     justify-self: center;
-  
+
 
 }
 
@@ -245,7 +245,7 @@ p {
     display: none;
 }
 
-@media screen and (min-width: 376px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) {
     body {
         width: 100%;
     }
@@ -275,11 +275,13 @@ p {
         justify-content: space-between;
         justify-items: center;
         width: 100vw;
+        overflow: auto;
     }
 
     .desktop-nav {
         display: flex;
         justify-content: space-around;
+
     }
 
     #desktop-logo {
@@ -287,11 +289,39 @@ p {
         margin-right: 3.5rem;
         max-width: 100%;
         max-height: 100%;
+        display: block;
+    }
+    .desktop-big-ul li:hover .desktop-feature-li {
+        display: block;
+    }
+    .desktop-big-ul li:hover .desktop-company-li {
+        display: block;
+    }
+    .desktop-feature-li {
+        display: none;
+        position: absolute;
+        background-color: white;
+        border-radius: 0.6rem;
+        box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        list-style-type: none;
+        margin-top: 1.2rem;
+        left: 15%;
     }
 
-    .desktop-feature-li,
     .desktop-company-li {
         display: none;
+        position: absolute;
+        background-color: white;
+        border-radius: 0.6rem;
+        box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+        padding: 0.63rem;
+        list-style-type: none;
+        margin-top: 1.2rem;
+
+    }
+    #desktop-icon {
+        margin-right: 0.8rem;
     }
 
     #desktop-arrow-up1,
@@ -319,6 +349,7 @@ p {
     .desktop-big-ul li a:hover {
         color: hsl(0, 0%, 8%);
     }
+
     #desktop-login,
     #desktop-register {
         font-family: 'Epilogue';
@@ -339,8 +370,10 @@ p {
 
     .desktop-btn1 {
         /* padding-bottom: 3rem; */
+        display: flex;
         font-family: 'Epilogue';
         margin-right: 1rem;
+        justify-items: center;
     }
 
     #mobile-image {
@@ -352,7 +385,7 @@ p {
         display: flex;
         flex-direction: row-reverse;
         width: 100vw;
-        margin-top: 2rem;
+        margin-top: 4rem;
 
     }
 
@@ -379,7 +412,7 @@ p {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 4.7rem;
         width: 100%;
         margin-bottom: 3rem;
     }
@@ -394,15 +427,17 @@ p {
         letter-spacing: 1px;
         margin-bottom: 2rem;
     }
+
     .contact {
         display: flex;
-        
+        flex-direction: row;
+
     }
 
-    .contact img{
+    .contact img {
         max-width: 100%;
         max-height: 100%;
-        
+
     }
 
     .desktop-btn {
@@ -420,7 +455,7 @@ p {
         font-weight: 700;
     }
 
-    
+
     .attribution {
         margin-top: 2rem;
     }
