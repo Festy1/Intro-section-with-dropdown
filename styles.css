@@ -308,6 +308,14 @@ p {
         margin-top: 1.2rem;
         left: 15%;
     }
+    .desktop-feature-li li,
+    .desktop-company-li li {
+        cursor: pointer;
+    }
+    .desktop-feature-li li:hover,
+    .desktop-company-li li:hover {
+        color: black;
+    }
 
     .desktop-company-li {
         display: none;
@@ -318,7 +326,7 @@ p {
         padding: 0.63rem;
         list-style-type: none;
         margin-top: 1.2rem;
-
+        
     }
     #desktop-icon {
         margin-right: 0.8rem;
